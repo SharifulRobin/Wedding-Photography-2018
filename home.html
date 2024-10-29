@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Wedding Capture</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/Untitled-1.png" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+</head>
+<body>
+	<div class="header">
+		<div class="middle">
+			<div class="logo">
+				<img src="images/Untitled-1.png" alt="logo" />
+			
+			</div>
+		<nav class="menu">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	
+	<!-- 2nd steap -->
+	
+	<div class="image">
+		<img src="images/IMG_0327.jpg" alt="bride" />
+	</div>
+	
+	<!-- 3rd steap -->
+	
+	<div class="gallery">
+	
+			<div class="overly">
+			
+					<div class="wraper">
+						<img src="images/IMG_0223.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/IMG_0349.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/IMG_0656.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/immmg.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+					
+					
+
+
+			</div>
+			
+			
+			<div class="overly-two">
+			
+							<div class="wraper">
+						<img src="images/Screenshot_1.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/Screenshot_2.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/Screenshot_3.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+						<div class="wraper">
+						<img src="images/Screenshot_4.jpg" alt="" />
+						
+						<div class="content">
+						
+						</div>
+					</div>
+					
+			
+			</div>
+	
+	</div>
+	
+	
+	<div class="totop">
+		<a href="#"><i class="fa fa-angle-up"></i></a>
+	</div>
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+		
+		
+			jQuery('#change a').click(function(){
+			
+			
+				jQuery('#change').hide();
+			
+			
+			});
+			
+			jQuery('.totop a').click(function(){
+			
+				jQuery('html, body').animate({'scrollTop': 0},2000);
+			
+			});
+			
+			jQuery(window).scroll(function(){
+			
+			
+				if(jQuery(window).scrollTop() > 300){
+				
+					jQuery('.totop a').show();
+				
+				}else{
+				
+					jQuery('.totop a').hide();
+					
+				}
+			
+			
+			
+			
+			});
+		
+		
+		
+		});
+	</script>
+	
+	<div class="copyright">
+	
+		<p>Copyright&copy;2019 Wedding Capture | All Rights Reserved.</p>
+	</div>
+</body>
+</html>

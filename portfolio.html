@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Wedding Capture</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/Untitled-1.png" />
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+</head>
+<body>
+	<div class="header">
+		<div class="middle">
+			<div class="logo">
+				<img src="images/Untitled-1.png" alt="logo" />
+			
+			</div>
+		<nav class="menu">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	
+	<!-- 2nd step -->
+	
+	<div class="port">
+	
+		<div class="portimg">
+			<img src="images/img2.jpg" alt="" />
+		</div>
+		
+	 <div class="amader-form"> 
+	
+		<p>SEND US A Message</p>
+			<form action="index.php" method="POST"> 
+				<label for="firstname">Name</label>
+				<input type="text" name="name" />
+				<label for="email">Email</label>
+				<input type="email" name="email" />
+				<label for="message-box">Message</label>
+				<input type="message-box" id="message-box" />
+				<input type="submit" value="SEND" />
+			</form>
+		
+	 </div>
+	
+	</div>
+	
+	<!-- last -->
+	
+		<div class="totop">
+		<a href="#"><i class="fa fa-angle-up"></i></a>
+	</div>
+	
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+		
+		
+			jQuery('#change a').click(function(){
+			
+			
+				jQuery('#change').hide();
+			
+			
+			});
+			
+			jQuery('.totop a').click(function(){
+			
+				jQuery('html, body').animate({'scrollTop': 0},2000);
+			
+			});
+			
+			jQuery(window).scroll(function(){
+			
+			
+				if(jQuery(window).scrollTop() > 300){
+				
+					jQuery('.totop a').show();
+				
+				}else{
+				
+					jQuery('.totop a').hide();
+					
+				}
+			
+			
+			
+			
+			});
+		
+		
+		
+		});
+	</script>
+		<div class="copyright">
+	
+		<p>Copyright&copy;2019 Wedding Capture | All Rights Reserved.</p>
+	</div>
+	
+	
+</body>
